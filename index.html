@@ -26,6 +26,15 @@
       </div>
       <div class="hero-content mx-auto">
         <div class="flex-column items-center">
+          <div class="form-control w-full max-w-md mx-auto">
+            <!-- selection & input user -->
+            <select class="select select-info w-full max-w-md" id="selection">
+              <option disabled selected>Pilih Jenis Kendaraan</option>
+              <option>Health 2.000 (Mobil/Truk)</option>
+              <option>Health 1.500 (Motor)</option>
+              <option>Health 3.000 (Ambulance)</option>
+            </select>
+          </div>
           <div class="form-control w-full max-w-md mx-auto" >
             <label class="label">
             </label>
@@ -35,16 +44,6 @@
               placeholder="Masukkan health pada '/dl'"
               class="input input-bordered w-full max-w-md mb-4"
             />
-          </div>
-          <div class="form-control w-full max-w-xs mx-auto">
-            <!-- selection & input user -->
-            <select class="select select-info w-full max-w-xs" id="selection">
-              <option disabled selected>Pilih Jenis Kendaraan</option>
-              <option>Health 2.000 (Mobil/Truk)</option>
-              <option>Health 1.500 (Motor)</option>
-              <option>Health 3.000 (Ambulance)</option>
-            </select>
-            <br>
           </div>
           <div style="display: flex; flex-direction: row; justify-content: space-between;">
             <button id="convert-btn" value="Submit"
