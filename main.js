@@ -27,8 +27,8 @@ function update(){
     }  else {
       var persen = Math.round((health/2000)*100);
       var hasil = Math.round(komponen);
-      var modal = (Math.round(komponen)/2);
-      var untung = Math.ceil((komponen/2+10)) +" - $"+ Math.ceil((komponen/2+20))
+      var modal = (Math.round(komponen)*0.55).toFixed(2);
+      var untung = Math.round((komponen*0.55)+10) +" - $"+ Math.round((komponen*0.55)+20)
       document.getElementById("persen").innerHTML =  persen +"%";
       document.getElementById("hasil").innerHTML = hasil +" Component";
       document.getElementById("modal").innerHTML = "Modal: $"+ modal;
@@ -50,8 +50,8 @@ function update(){
     } else {
       var persen = Math.round((health/1500)*100);
       var hasil = Math.round(komponen);
-      var modal = (Math.round(komponen)/2);
-      var untung = Math.ceil((komponen/2+10)) +" - $"+ Math.ceil((komponen/2+20))
+      var modal = (Math.round(komponen)*0.55).toFixed(2);
+      var untung = Math.round((komponen*0.55)+10) +" - $"+ Math.round((komponen*0.55)+20)
       document.getElementById("persen").innerHTML =  persen +"%";
       document.getElementById("hasil").innerHTML = hasil +" Component";
       document.getElementById("modal").innerHTML = "Modal: $"+ modal;
@@ -74,8 +74,8 @@ function update(){
     } else {
       var persen = Math.round((health/3000)*100);
       var hasil = Math.round(komponen);
-      var modal = (Math.round(komponen)/2);
-      var untung = Math.ceil((komponen/2+10)) +" - $"+ Math.ceil((komponen/2+20))
+      var modal = (Math.round(komponen)*0.55).toFixed(2);
+      var untung = Math.round((komponen*0.55)+10) +" - $"+ Math.round((komponen*0.55)+20)
       document.getElementById("persen").innerHTML =  persen +"%";
       document.getElementById("hasil").innerHTML = hasil +" Component";
       document.getElementById("modal").innerHTML = "Modal: $"+ modal;
